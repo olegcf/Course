@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Create commit:
+# Nice script
 
 num="${1:-1}"
 for((i=0; i < num; i++))
