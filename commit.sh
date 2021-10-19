@@ -11,3 +11,4 @@ do
   git commit -m "$i"
   git push
 done
+print
