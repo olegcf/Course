@@ -12,3 +12,4 @@ do
   git push
 done
 print
+print
