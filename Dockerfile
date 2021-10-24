@@ -1,4 +1,3 @@
-# Alpuha
 FROM alpine
 
 RUN apk add --update redis
