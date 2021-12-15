@@ -1,0 +1,3 @@
+FROM busybox:uclibc
+
+ENTRYPOINT [ "/bin/ls" ]
