@@ -6,6 +6,9 @@ app.get('/', (req,res) => {
   res.send('Hi, there again') 
 });
 
+app.get('/health', (req,res)) => {
+  res.send('health check') 
+}
 app.listen(8080, () => {
   console.log("Listening on port 8080")
 })
