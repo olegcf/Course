@@ -21,10 +21,10 @@ steps:
   build:
     title: "Building Docker image"
     type: "build"
-    image_name: "olegcf/Course"
+    image_name: "olegcf/nodejs"
     working_directory: "${{clone}}/nodejs"
     tag: "${{CF_SHORT_REVISION}}"
     dockerfile: "Dockerfile"
-    registry: "dockerhub"
+    registry: "DockerHub"
     stage: "build"
-    disable_push: "fals"
+    disable_push: "false"
