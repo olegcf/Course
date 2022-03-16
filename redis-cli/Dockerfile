@@ -1,4 +1,4 @@
-# Service; Try
+# Service; Try it now
 FROM alpine:3
 
 RUN apk add --update redis
