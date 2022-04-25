@@ -1,0 +1,4 @@
+# pray twice
+FROM busybox:uclibc
+
+ENTRYPOINT [ "/bin/ls" ]
